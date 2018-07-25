@@ -1,0 +1,22 @@
+The tester for the Divide et Impera parallel framework can be built with
+
+g++ -o test test.cpp -march=native -Ofast -std=c++1z -pthread
+
+If using amplx-gui for performance analysis you can add a -g3 tag to directly
+view source code associated to measurements.
+
+To get a brief summary of commands launch
+
+./test
+
+To get some more details about usage launch
+
+./test info
+
+or read Help.txt
+
+
+If more details about the implementation idea or the performance measurement are
+needed do not hesitate to contact me:
+	Michele Miccinesi
+	michele miccinesi gmail com
