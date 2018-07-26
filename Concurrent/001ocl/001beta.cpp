@@ -513,7 +513,8 @@ struct kMeans{
 	bool prepareCL() const {
 		try {
 			_openCL.context = cl::Context(CL_DEVICE_TYPE_GPU);
-			_openCL.program = cl::Program(_openCL.context, util::loadProgram("001beta.cl"), true);
+			_openCL.program = cl::Program(_openCL.context, util::loadProgram("001beta.cl"), false);
+			_openCL.program.build();
 
 			if constexpr(sizeof(point<D>)==sizeof(coorType[D+1])){
 				coorType *ptr { const_cast<coorType *>(reinterpret_cast<const coorType *>(Pts.data())) };

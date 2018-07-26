@@ -1,0 +1,5 @@
+typedef int TTTT;
+
+TTTT FFFF(TTTT v1, TTTT v2){
+	return v1+v2;
+}
