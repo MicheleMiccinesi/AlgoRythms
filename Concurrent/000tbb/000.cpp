@@ -1,3 +1,5 @@
+/* Author: Michele Miccinesi */
+
 #include <iostream>
 #include <vector>
 #include <string>
