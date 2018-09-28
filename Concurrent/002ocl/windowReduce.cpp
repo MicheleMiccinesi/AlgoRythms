@@ -1,3 +1,6 @@
+/* Author: Michele Miccinesi */
+/* License: contact the author */
+
 #include <iostream>
 #include <vector>
 #include <atomic>
