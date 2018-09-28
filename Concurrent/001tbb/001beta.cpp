@@ -1,3 +1,6 @@
+/* Author: Michele Miccinesi */
+/* License: contact the author */
+
 //#define TBB_USE_DEBUG 1
 #include <iostream>
 #include <vector>
