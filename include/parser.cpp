@@ -15,7 +15,7 @@ inline bool preMatch(std::string pre, std::string text){
     return true;
 }
 
-/* TODO: if there where string literals as template arguments... */
+/* TODO: if there were string literals as template arguments...  */
 /* we could easily do static etc... try to do it with literals   */
 /* operators &tc...                                              */
 template <class ...args>
